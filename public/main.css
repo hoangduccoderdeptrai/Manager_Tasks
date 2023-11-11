@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    row-gap: 50px;
+   
+    padding: 0 30%;
+   
+
+    
+    /* min-height: 50vh; */
+   
+    
+}
+.form{
+    margin-top:100px;
+    min-height: 20vh;
+    width: 100%;
+    background-color: rgb(217, 217, 204);
+
+   
+   
+    
+    
+
+}
+.name_task{
+    text-align: center;
+    display: block;
+    margin-top:30px ;
+    font-size: larger;
+    
+}
+.form_handler{
+    text-align: center;
+    padding: 20px 20px;
+}
+.ip_form{
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-style: none;
+    outline: none;
+}
+.btn{
+    padding: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgb(12, 104, 70);
+    border-style: none;
+}
+.todo{
+    font-size: 2 rem;
+    padding: 0 8px;
+
+}
+.text{
+    padding: 4px 8px;
+    margin-top: 10px;
+    font-size: 30px;
+    background-color: rgb(217, 217, 204);
+    display: grid;
+    grid-template-columns: 80% 10% 10%;;
+   
+}
+.check{
+    color: rgb(48, 196, 89);
+    text-align: center;
+}
+.trash{
+    text-align: center;
+}
+.active{
+    transition: all 0.3s ease-in-out;
+    transform: translateX(300px);
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            position: absolute;
+            top:30%;
+            left: 50%;
+            transform:translate(-50%,-30%); 
+            padding:10px;
+            background-color:rgb(238, 237, 235)
+            
+        }
+        .name,.id{
+            padding: 16px ;
+        }
+        .Completed{
+            padding: 16px;
+        }
+        .btn_submit{
+            width: 100%;
+        }
+        .ip{
+            padding: 4px 8px;
+            outline: none;
+            border: none;
+            background-color:white;
+        }
+        .nagavitive{
+            position: absolute;
+            top:70%;
+            left: 50%;
+            transform: translate(-50%,-70%);
+            background-color: black;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        .form_alert{
+            padding:8px 6px ;
+        }
+        .alert{
+            color:rgb(0, 0, 255);
+            padding:8px;
+        }
+       
+    </style>
+</head>
+<body>
+    <form action="" class="form">
+        <div class="id">
+            <span >Task ID:</span>
+            <span class="task_id">22520351</span>
+        </div>
+        <div class="name">
+            <span >Name</span>
+            <input type="text" value="" class="ip">
+        </div>
+       
+        <div class="Completed">
+            <span >Completed </span>
+            <input type="checkbox" class="checkbox" >
+        </div>
+        <div class="button">
+            <button class="btn_submit">Edit</button>
+        </div>
+        <div class="form_alert">
+            <span class="alert" ></span>
+        </div>
+       
+    </form>
+    <div>
+        <a href="index.html" class="nagavitive">Back to home</a>
+    </div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="task.js"></script>
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+></script>
+</body>
+</html>
